@@ -1,7 +1,26 @@
-/build
-**/build/
-/gradle
-.DS_Store
-.gradle/
+# IntelliJ IDEA
 .idea/
+*.iml
+*.iws
+out/
 
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle/cache/
+.gradle/daemon/
+.gradle/workspace/
+.gradle/buildOutputCleanup/
+!gradlew
+!gradlew.bat
+
+# Spring Boot
+logs/
+*.log
+
+# MacOS
+.DS_Store
+
+# Java
+*.class
