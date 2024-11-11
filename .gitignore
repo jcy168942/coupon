@@ -1,5 +1,5 @@
 /build
-**/build/**
+**/build/
 /gradle
 .DS_Store
 .gradle/
