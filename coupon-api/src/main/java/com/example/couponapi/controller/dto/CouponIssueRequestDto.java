@@ -1,2 +1,4 @@
-package com.example.couponapi.controller.dto;public record CouponIssueRequestDto() {
+package com.example.couponapi.controller.dto;
+
+public record CouponIssueRequestDto(long userId, long couponId) {
 }

@@ -1,8 +1,5 @@
 spring:
   application:
-    name: coupon-consumer
+    name: coupon-api
 server:
   port: 8080
-  tomcat:
-    threads:
-      max: 800
